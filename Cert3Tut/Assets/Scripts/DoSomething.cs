@@ -8,7 +8,10 @@ public class DoSomething : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         value *= 2;
+        value -= 5;
+
     }
 
     // Update is called once per frame
